@@ -16,7 +16,7 @@ const Navbar = () => {
     <Nav>
       <NavbarContainer>
         <NavLogo to="/">billz</NavLogo>
-        
+
         <MobileIcon>
           <FaBars />
         </MobileIcon>
@@ -25,7 +25,20 @@ const Navbar = () => {
           <NavItem>
             <NavLinks to="about">About</NavLinks>
           </NavItem>
+          <NavItem>
+            <NavLinks to="discover">Discover</NavLinks>
+          </NavItem>
+          <NavItem>
+            <NavLinks to="services">Services</NavLinks>
+          </NavItem>
+          <NavItem>
+            <NavLinks to="signup">Sign Up</NavLinks>
+          </NavItem>
         </NavMenu>
+
+        <NavBtn>
+          <NavBtnLink to="/signin">Sign In</NavBtnLink>
+        </NavBtn>
 
       </NavbarContainer>
     </Nav>
