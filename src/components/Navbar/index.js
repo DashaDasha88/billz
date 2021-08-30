@@ -16,6 +16,7 @@ const Navbar = () => {
     <Nav>
       <NavbarContainer>
         <NavLogo to="/">billz</NavLogo>
+        
         <MobileIcon>
           <FaBars />
         </MobileIcon>
