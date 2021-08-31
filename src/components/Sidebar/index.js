@@ -2,7 +2,13 @@ import React from 'react';
 import { 
   SidebarContainer, 
   Icon, 
-  CloseIcon } from './SidebarElements';
+  CloseIcon,
+  SidebarWrapper,
+  SidebarMenu,
+  SidebarLink,
+  SideBtnWrap,
+  SidebarRoute
+ } from './SidebarElements';
 
 const Sidebar = () => {
 
@@ -20,6 +26,11 @@ const Sidebar = () => {
           <SidebarLink to="services">Services</SidebarLink>
           <SidebarLink to="signup">Sign Up</SidebarLink>
         </SidebarMenu>
+
+        <SideBtnWrap>
+          <SidebarRoute to="/signin">Sign In</SidebarRoute>
+        </SideBtnWrap>
+
       </SidebarWrapper>
 
     </SidebarContainer>
